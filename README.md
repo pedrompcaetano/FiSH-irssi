@@ -52,9 +52,9 @@ Also, some commands now allow to define the network.
 First download the irssi source code and extract it, for example **/home/jacinto/irssi-0.8.15**.  
 Now enter the FiSH-irssi directory and run the following combo.
 <pre>
-# ./autogen.sh
-# ./configure --with-irssi=/home/jacinto/irssi-0.8.15 --prefix=/usr
-# make
+$ ./autogen.sh
+$ ./configure --with-irssi=/home/jacinto/irssi-0.8.15 --prefix=/usr
+$ make
 # sudo make install
 </pre>
 
